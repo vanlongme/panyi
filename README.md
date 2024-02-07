@@ -18,6 +18,12 @@ Binary Format stream.
 panyi simply replaces these strings with their translated counterparts from
 `panyi.ini`.
 
+### Build
+1. Download and install [Microsoft Visual Studio]: https://visualstudio.microsoft.com/vs/community/
+1. Open the panyi.sln
+1. From the top menu select `Build -> Build Solution`
+1. The resulting executable will be under `panyi/bin/Debug` subfolder
+
 ### Arguments
 
 Argument       | Description
@@ -32,7 +38,7 @@ Argument       | Description
 Pull requests with translation improvements or new languages are welcome!
 
 Just fork this repository and commit your changes to `panyi.ini`, then submit a
-pull request.
+pull request. Keep in mind that strings over 500 chars are not always processed well, consider truncating the long lines in your `panyi.ini`.
 
 ### Acknowledgements
 
